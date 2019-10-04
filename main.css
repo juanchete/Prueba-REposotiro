@@ -1,0 +1,56 @@
+.Borde{
+border: 3px solid black
+}
+.flex{
+    display: flex;
+}
+#Marco{
+    height: 600px;
+    width: 600px;
+    
+}
+.centro{
+    align-items: center;
+    
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+   
+}
+.row{
+    flex-direction: row;
+    align-items: flex-start;
+}
+#arriba{
+    min-width: 100% ;
+    min-height: 50%;
+    background: black;
+   
+}
+#abajo{
+    min-width: 100% ;
+    min-height: 50%;
+    background: blue;
+
+}
+#pantalla{
+    width: 50%;
+    height:40%;
+    background: white;
+}
+
+#pantallaAbajo{
+    width: 50%;
+    height:50%;
+    background: white;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px;
+    margin: 9px;
+text-align: center;
+width: 50%;
+height: 50%;
+}
